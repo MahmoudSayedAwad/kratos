@@ -31,6 +31,7 @@ class AppPreferences {
   }
 
   Future<void> logout() async {
+
     _sharedPreferences.remove(PREFS_KEY_IS_USER_LOGGED_IN);
     _sharedPreferences.remove("water");
     _sharedPreferences.remove("steps");

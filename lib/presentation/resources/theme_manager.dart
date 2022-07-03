@@ -47,7 +47,6 @@ ThemeData getApplicationTheme() {
 
     ),
     primaryColor: ColorManager.primary,
-
     splashColor: ColorManager.backgroundColor,
     cardTheme: CardTheme(
       color: ColorManager.white,

@@ -6,8 +6,8 @@ import 'app_api.dart';
 abstract class LocalDataSource {
   Future<UserResponse> login(LoginRequest loginRequest);
   Future<UserResponse> loginById(int id);
-
   Future<int> register(RegisterRequest registerRequest);
+
 }
 
 class LocalDataSourceImpl implements LocalDataSource {
